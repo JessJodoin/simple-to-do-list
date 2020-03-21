@@ -8,8 +8,8 @@ $('form').on('submit', function (e) {
   $('ul').append($li);
 
   $('#list').val('');
+});
 
-  $li.on('click', function () {
-    $li.toggleClass('checked');
-  });
+$('ul').on('click', 'li', function () {
+  $(this).toggleClass('checked');
 });

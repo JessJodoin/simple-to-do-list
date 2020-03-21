@@ -18,6 +18,6 @@ html {
 }
 
 .checked {
-  color: #666;
   text-decoration: line-through;
+  color: #888;
 }
