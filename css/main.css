@@ -16,3 +16,8 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.checked {
+  color: #666;
+  text-decoration: line-through;
+}
